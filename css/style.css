@@ -447,9 +447,35 @@ button {
 
 
 
+.email-icon,
+.phone-icon,
+.home-icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 20px;
+    color: white;
+}
 
+/* Email icon */
+.email-icon {
+    background-color: #2563eb;
+}
 
+/* Phone icon */
+.phone-icon {
+    background-color: #16a34a;
+}
 
+/* Address icon */
+.home-icon {
+    background-color: #7c3aed;
+}
 
 
 
